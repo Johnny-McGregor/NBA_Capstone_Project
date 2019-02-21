@@ -7,9 +7,10 @@ This task was tackled by building both regression and classifier models.
 
 The entries in this repo should be viewed in this order:
 
-- Technical Report
-- 01 - Data Gathering
-- 02 - Models
+- 01 - Technical Report
+- 02 - Data Gathering Notebook
+- 03 - Models Notebook
+- 04 - Capstone slides
 
 The Data Gathering notebook displays the code used to web scrape all of the data from nba-reference.com.  It would be helpful to view either the game log or advanced game log page for any player to follow along with what the web scraping code is accomplishing.  Every 20 rows the column names are repeated in the table, so code was written to skip those rows.  Code was also written to skip rows that represented a game in which a particular player did not play.
 
